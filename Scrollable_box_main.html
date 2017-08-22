@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title> Box and scrollable </title>
+	<style >
+		div {
+		width: 500px;
+		height: 500px;
+		border: 5px solid black;
+		margin: auto;
+		padding: 5px;
+
+		overflow: scroll;
+		}
+		body {
+			background-image:url(edu.jpg);
+			background-size: 1360px;
+			background-repeat: no-repeat;
+		}
+		.navbar {
+    overflow: hidden;
+    background-color: DimGray;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 5; /* Position the navbar at the top of the page */ 
+    left: 31%;
+    width: 475px; 
+    height: 50px;
+		}
+
+/* Links inside the navbar */
+		.navbar a {
+    float: left; 
+    display: block;
+    color: white ;
+    text-align: center;
+    padding: 12px 14px;
+   		}
+
+	</style>
+</head>
+<body>
+	<div class="navbar">
+	
+  		<a href="Home.html"> Home </a>
+  		<a href="About.html"> About </a>
+		<a href="contact.html"> Contact </a>
+ 	
+	</div>
+	<div>	
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<b>Classes and Objects in Java </b> : Classes and Objects are basic concepts of Object Oriented Programming which revolve around the real life entities.<br>A class is a user defined blueprint or prototype from which objects are created.  It represents the set of properties or methods that are common to all objects of one type. In general, class declarations can include these components, in order:
+
+		Modifiers : A class can be public or has default access (Refer this for details).
+		<br>
+
+		Class name: The name should begin with a initial letter (capitalized by convention).
+		<br>
+		Superclass(if any): The name of the class’s parent (superclass), if any, preceded by the keyword extends. A class can only extend (subclass) one parent.
+		<br>
+		Interfaces(if any): A comma-separated list of interfaces implemented by the class, if any, preceded by the keyword implements. A class can implement more than one interface.
+		<br>
+		Body: The class body surrounded by braces, { }.
+		<br>
+		Constructors are used for initializing new objects. Fields are variables that provides the state of the class and its objects, and methods are used to implement the behavior of the class and its objects.
+		<br>
+		There are various types of classes that are used in real time applications such as nested classes, anonymous classes, lambda expressions.
+
+		<br>
+		<br>
+		<br>
+		<h3>Object</h3>
+		It is a basic unit of Object Oriented Programming and represents the real life entities.  A typical Java program creates many objects, which as you know, interact by invoking methods. An object consist of :
+		<br>
+		State : It is represented by attributes of an object. It also reflect the properties of an object.
+		<br>
+		Behavior : It is represented by methods of an object. It also reflects the response of an object with other objects.
+		<br>
+		Identity : It gives a unique name to an object and enables one object to interact with other objects.
+	</div>
+
+</body>
+</html>
